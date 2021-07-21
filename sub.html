@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="노블웍스와 함께!">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="노블웍스">
+    <meta property="og:url" content="http://syeon8867.dothome.co.kr/rwdNovel">
+    <meta property="og:image" content="http://syeon8867.dothome.co.kr/rwdNovel/images/common/logo.png">
+    <meta property="og:description" content="노블웍스와 함께!">
+    <title>노블웍스</title>
+    <link id="favicon" rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/ico_touch.png">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/common.css?v=<?php echo time(); ?>">
+  </head>
+
+  <body>
+    <div id="skipNavi">
+      <a href="#container">본문 바로가기</a>
+    </div>
+    <div id="wrap">
+        <header id="header">
+            <div class="header_inner">
+                <h1 class="logo"><a href="#"><img src="images/logo.png" alt="노블웍스"></a></h1>
+                <nav class="gnb">
+                    <ul class="depth1">
+                        <li>
+                            <a href="#">COMPANY</a>
+                            <ul class="depth2">
+                                <li><a href="#">회사정보</a></li>
+                                <li><a href="#">특허사항</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">BUSINESS</a>
+                            <ul class="depth2">
+                                <li><a href="#">제품개발 생산</a></li>
+                                <li><a href="#">원천기술 개발</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">PRODUCT</a>
+                            <ul class="depth2">
+                                <li><a href="#">All</a></li>
+                                <li><a href="#">UV 소독</a></li>
+                                <li><a href="#">CLEAN</a></li>
+                                <li><a href="#">소형가전</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">TECHNOLOGY</a>
+                            <ul class="depth2">
+                                <li><a href="#">UV LED 살균</a></li>
+                                <li><a href="#">광촉매 살균</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">CONTACT US</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="btn_wrap">
+                    <ul class="lang">
+                        <li><a href="#">ENG</a></li>
+                        <li class="active"><a href="#">KOR</a></li>
+                    </ul>
+                    <a class="btn_sitemap btn_menu" href="#">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        사이트맵 열기
+                    </a>
+                    <div class="modal_wrap">
+                        <div class="modal_sitemap">
+                            <h2>사이트맵</h2>
+                            <button class="btn_close" type="button">
+                                <span class="material-icons">close</span>
+                                <span class="blind">사이트맵 닫기</span>
+                            </button>
+                            <div class="menu_wrap">
+                                <ul class="depth1">
+                                    <li>
+                                        <h3>COMPANY</h3>
+                                        <ul class="depth2">
+                                            <li><a href="#">회사정보</a></li>
+                                            <li><a href="#">특허사항</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <h3>BUSINESS</h3>
+                                        <ul class="depth2">
+                                            <li><a href="#">제품개발 생산</a></li>
+                                            <li><a href="#">원천기술 개발</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <h3>PRODUCT</h3>
+                                        <ul class="depth2">
+                                            <li><a href="#">All</a></li>
+                                            <li><a href="#">UV 소독</a></li>
+                                            <li><a href="#">CLEAN</a></li>
+                                            <li><a href="#">소형가전</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <h3>TECHNOLOGY</h3>
+                                        <ul class="depth2">
+                                            <li><a href="#">UV LED 살균</a></li>
+                                            <li><a href="#">광촉매 살균</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <h3>CONTACT</h3>
+                                        <ul class="depth2">
+                                            <li><a href="#">Contact us</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn_menu_toggle btn_menu" type="button">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        메뉴 열기
+                    </button>
+                </div>
+                <aside class="m_gnb_box">
+                    <!-- 스크롤시 헤더랑 겹치기 때문에 한번감아 처리 -->
+                    <div class="menu_scroll">
+                        <ul class="depth1">
+                            <li>
+                                <a href="#">Company<i class="material-icons">add</i><i class="material-icons">remove</i></a>
+                                <ul class="depth2">
+                                    <li><a href="#">회사정보</a></li>
+                                    <li><a href="#">특허사항</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Business<i class="material-icons">add</i><i class="material-icons">remove</i></a>
+                                <ul class="depth2">
+                                    <li><a href="#">제품개발 생산</a></li>
+                                    <li><a href="#">원천기술 개발</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Product<i class="material-icons">add</i><i class="material-icons">remove</i></a>
+                                <ul class="depth2">
+                                    <li><a href="#">All</a></li>
+                                    <li><a href="#">UV 소독</a></li>
+                                    <li><a href="#">CLEAN</a></li>
+                                    <li><a href="#">소형가전</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Technology<i class="material-icons">add</i><i class="material-icons">remove</i></a>
+                                <ul class="depth2">
+                                    <li><a href="#">UV LED 살균</a></li>
+                                    <li><a href="#">광촉매 살균</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Contact us<i class="material-icons">add</i><i class="material-icons">remove</i></a>
+                                <ul class="depth2">
+                                    <li><a href="#">Contact us</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </aside>
+            </div>
+        </header>
+        <div class="dimm_header"></div>
+        <div id="container">
+        </div>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/main.js?v=<?php echo time(); ?>"></script>
+  </body>
+</html>
